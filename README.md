@@ -4,8 +4,8 @@ The base of your next responsive website / CMS.
 
 ## Getting Started
 
-Download the zip file. 
-Extract the file in a directory of your server.
+Download the zip file.   
+Extract the file in a directory of your server.  
 See futher the "Installation Instructions" of the Codeigniter version 3.
 
 ## Built With
