@@ -1,0 +1,25 @@
+<IfModule mod_setenvif.c>
+
+    SetEnvIf Host local.server$ CI_ENV=development
+    SetEnvIf Host 192.168.1.15$ CI_ENV=testing
+    SetEnvIf Host uwdomein.nl$ CI_ENV=production
+
+</IfModule>
+
+
+<IfModule mod_rewrite.c>
+
+    RewriteEngine On
+
+    RewriteCond %{REQUEST_METHOD} ^(TRACE|TRACK|OPTIONS|HEAD)
+    RewriteRule .* - [F]
+
+    RewriteCond %{ENV:REDIRECT_VAR} !^$
+    RewriteRule .* - [E=VAR:%{ENV:REDIRECT_VAR}]
+
+    RewriteCond $1 !^(index\.php|assets|afbeeldingen|robots\.txt)
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ index.php/$1 [L,QSA]
+
+</IfModule>
