@@ -6,7 +6,8 @@ The base of your next responsive website / CMS.
 
 Download the zip file.   
 Extract the file in a directory of your server.  
-See futher the "Installation Instructions" of the Codeigniter version 3.
+See the "Installation Instructions" of the Codeigniter version 3.  
+https://www.codeigniter.com/user_guide/installation/index.html  
 
 ## Prerequisites
 
@@ -34,7 +35,7 @@ ResponsiveFramework
 
 CodeIgniter
 * https://www.codeigniter.com/user_guide/ - CodeIgniter User Guide  
-* https://www.vanwijheweb.nl/portaal/codeigniter - Articles aboaut CodeIgniter
+* https://www.vanwijheweb.nl/portaal/codeigniter - Articles about CodeIgniter
 
 
 ## Authors
