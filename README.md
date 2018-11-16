@@ -1,12 +1,12 @@
 # Responsive Framework
 
-The base of your next responsive website / CMS.
+The base of your next responsive website / Content Management System.
 
 ## Getting Started
 
 Download the zip file.   
 Extract the file in a directory of your server.  
-See the "Installation Instructions" of the Codeigniter version 3.  
+See the "Installation Instructions" of the CodeIgniter version 3.  
 https://www.codeigniter.com/user_guide/installation/index.html  
 
 ## Prerequisites
