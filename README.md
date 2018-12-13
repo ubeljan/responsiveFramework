@@ -1,3 +1,4 @@
+![Responsive Framework](https://www.responsiveframework.nl/afbeeldingen/logo/responsive_framework_ci3.github.png)
 # Responsive Framework
 
 The base of your next responsive website / Content Management System.
